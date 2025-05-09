@@ -1,0 +1,85 @@
+Timestamp,Student Name,Gender,Age,  Degree Program  ,  Year of Study  ,Desired Career Path,  Skills Acquired  ,  Internship Experience  ,Number Of Projects Done,  Employment Status  ,"  Job Search Duration  
+(mention in number of months Ex: 2)",Job Search Platforms Used
+02/02/2025 12:19:20,Prasanna ,Female,19,B.Tech,3,Web Development,"C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",Yes,0,Unemployed,,Other
+02/02/2025 12:22:27,Lavanya,Female,18,B.Tech,3,Web Development,"C/Python/Java, HTML/CSS/JavaScript",Yes,1,Unemployed,,
+02/02/2025 12:24:19,PECHETTI ROHIT SRI SAI ,Male,19,B.Tech,3,Software Development,C/Python/Java,No,0,Unemployed,,
+02/02/2025 12:29:25,CH JASWANTH ,Male,20,B.Tech,3,Software Development,"C/Python/Java, HTML/CSS/JavaScript",No,1,Unemployed,0,"LinkedIn, Campus Placements"
+02/02/2025 12:31:57,Bukkuru Syam ,Male,21,B.Tech,3,Web Development,"C/Python/Java, HTML/CSS/JavaScript, TensorFlow/Scikit-learn, MySQL/MongoDB, Git/GitHub",Yes,2,Unemployed,2 months ,LinkedIn
+02/02/2025 12:32:26,Haritha ,Female,,B.Tech,3,Software Development,"C/Python/Java, HTML/CSS/JavaScript",Yes,1,Unemployed,,"LinkedIn, Campus Placements"
+02/02/2025 12:36:19,Sivanagaraju ,Male,20,B.Tech,3,Software Development,"C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",No,0,Unemployed,,
+02/02/2025 12:42:54,Hari ,Male,21,B.Tech,3,Machine Learning,"C/Python/Java, TensorFlow/Scikit-learn",Yes,2,Employed,,"LinkedIn, Naukri"
+02/02/2025 12:43:38,Goriparthi Venkata Karthik,Male,19,B.Tech,3,Web Development,"HTML/CSS/JavaScript, MySQL/MongoDB, Git/GitHub",No,2,Unemployed,2,LinkedIn
+02/02/2025 13:00:41,Manichandra Duddukuri ,Male,20,B.Tech,3,Software Development,"C/Python/Java, HTML/CSS/JavaScript, Git/GitHub",Yes,1,Unemployed,1,"LinkedIn, Campus Placements"
+02/02/2025 13:02:26,Keerthi,Female,20,B.Tech,3,Web Development,"C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",Yes,1,Unemployed,0,LinkedIn
+02/02/2025 13:03:15,Mounika,Female,19,Other,3,Web Development,HTML/CSS/JavaScript,Yes,more than 3,Unemployed,2 months ,"LinkedIn, Naukri"
+02/02/2025 13:04:33,GOTTIPATI SAI SRAVANI ,Female,20,B.Tech,3,Web Development,C/Python/Java,Yes,0,Unemployed,,LinkedIn
+02/02/2025 13:06:46,Likitha ,Female,20,B.Tech,3,"Web Development, Machine Learning","C/Python/Java, HTML/CSS/JavaScript, TensorFlow/Scikit-learn, MySQL/MongoDB",Yes,2,Unemployed,1,"LinkedIn, Campus Placements"
+02/02/2025 13:07:54,Dollu santhosh kumar ,Male,24,B.Sc,,Machine Learning,HTML/CSS/JavaScript,Yes,3,Employed,2022,Indeed
+02/02/2025 13:15:27,Aggala karthik ,Male,20,B.Sc,4,Other,Others,No,0,Unemployed,,Other
+02/02/2025 13:23:06,Gullipalli chanti,Male,21,B.Sc,3,Web Development,Others,No,0,Unemployed,01,"Indeed, Naukri"
+02/02/2025 13:23:41,Yamini,Female,20,B.Tech,3,Web Development,"C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",Yes,0,Unemployed,0,"LinkedIn, Campus Placements"
+02/02/2025 13:27:22,Gorle dharani,Female,18,B.Sc,2,Other,C/Python/Java,No,0,Unemployed,0,Other
+02/02/2025 13:28:52,Jaya Shankar ,Male,20,B.Tech,3,Other,Others,No,0,Unemployed,,LinkedIn
+02/02/2025 13:32:27,Kimidi susmitha ,Female,18,B.Sc,2,"Data Science, Other",C/Python/Java,No,0,Unemployed,,"Campus Placements, Other"
+02/02/2025 13:35:25,Paroju Harika,Female,18,B.Sc,2,Other,C/Python/Java,No,0,Unemployed,0,Other
+02/02/2025 13:43:01,Aswini,Female,45,Other,4,Other,Others,No,0,Unemployed,,Other
+02/02/2025 13:43:07,B Navya Sai sree ,Female,19,B.Tech,3,Other,Others,Yes,1,Unemployed,,"LinkedIn, Naukri, Campus Placements"
+02/02/2025 13:50:40,Nohiya ,Female,19,B.Sc,2,Other,C/Python/Java,No,0,Unemployed,,Other
+02/02/2025 13:54:13,MEGHANA YAKKALA ,Female,19,B.Tech,3,"Software Development, Web Development, Machine Learning, AI","C/Python/Java, HTML/CSS/JavaScript",Yes,0,Unemployed,1,LinkedIn
+02/02/2025 14:07:31,Balasingi avanthi ,Female,31-06-2006,B.Sc,2,Other,Others,No,2,Unemployed,2,Other
+02/02/2025 14:09:19,Balasingi avanthi ,Female,18,B.Sc,2,Other,Others,No,2,Unemployed,2,Campus Placements
+02/02/2025 14:33:06,Laxmi prasanna ,Female,21,B.Tech,3,Software Development,C/Python/Java,No,0,Unemployed,1,LinkedIn
+02/02/2025 14:53:16,Saikumar ,Male,22,B.Com,3,Software Development,HTML/CSS/JavaScript,Yes,1,Unemployed,,
+02/02/2025 14:57:29,Pakki Praveen ,Male,22,B.Com,3,Other,Others,Yes,0,Unemployed,3 months ,Other
+02/02/2025 19:06:57,Aggala shyam ,Male,19,B.Tech,1,Software Development,C/Python/Java,Yes,0,Unemployed,2,LinkedIn
+02/02/2025 19:21:23,T. Vasanth,Male,18,B.Tech,1,AI,C/Python/Java,No,0,Unemployed,0,Other
+02/02/2025 19:29:02,Tammireddi Dinesh ,Male,19,B.Tech,1,Software Development,"C/Python/Java, Others",No,0,Unemployed,8,"LinkedIn, Other"
+02/02/2025 21:59:50,Devika Sanka ,Female,19,B.Tech,3,"Web Development, AI","C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",No,1,Unemployed,,"LinkedIn, Naukri"
+03/02/2025 08:01:29,Guntreddi uday kumar,Male,20,B.Sc,3,Other,Others,Yes,3,Unemployed,2months ,"Naukri, Other"
+03/02/2025 08:53:15,CH.BHANUPRAKASH,Male,19,B.Tech,1,Data Science,C/Python/Java,No,0,Unemployed,2,Other
+03/02/2025 08:54:58,CH.BHANUPRAKASH,Male,19,B.Tech,1,"Data Science, AI, Other",C/Python/Java,No,0,Unemployed,2,Other
+03/02/2025 20:10:44,B.Naga Pranathi,Female,25/08/2004,B.Tech,3,"Software Development, Web Development, Other",Others,No,1,Unemployed,,"LinkedIn, Other"
+03/02/2025 20:12:56,Maneesh ,Male,20,B.Tech,3,"Data Science, Web Development, Machine Learning, AI","C/Python/Java, TensorFlow/Scikit-learn, MySQL/MongoDB, Git/GitHub, Others",Yes,more than 3,Unemployed,2,LinkedIn
+03/02/2025 20:16:59,MAKE KRUPANANDAM,Male,21,B.Tech,4,"Software Development, Web Development",C/Python/Java,Yes,1,Unemployed,1,Campus Placements
+03/02/2025 20:18:58,Subrahmanyam Peddiraju ,Male,20,B.Tech,3,"Software Development, Web Development, Machine Learning","C/Python/Java, HTML/CSS/JavaScript",No,2,Unemployed,,"LinkedIn, Campus Placements"
+03/02/2025 20:20:41,Yasaswini ,Female,20,B.Tech,3,"Software Development, AI, Other","C/Python/Java, Others",No,1,Unemployed,2,"LinkedIn, Campus Placements, Other"
+03/02/2025 20:28:17,Nayak,Male,20,B.Tech,3,Cybersecurity,"C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",Yes,0,Unemployed,2,LinkedIn
+03/02/2025 20:29:15,Ch. Venkatesh,Male,20,B.Tech,2,Software Development,HTML/CSS/JavaScript,No,0,Unemployed,0,Other
+03/02/2025 20:41:59,G PRABHAS,Male,20,B.Tech,3,Software Development,"C/Python/Java, HTML/CSS/JavaScript",No,0,Unemployed,0,LinkedIn
+03/02/2025 20:51:49,URITI RAGHU PRASAD ,Male,29,B.Tech,4,"Software Development, Cybersecurity, AI","C/Python/Java, MySQL/MongoDB, Git/GitHub",No,0,Unemployed,4,"LinkedIn, Indeed, Naukri"
+03/02/2025 20:52:01,M. Bhaskara Krishna Sai ,Male,20,B.Com,3,"Data Science, Machine Learning, Cybersecurity, AI","C/Python/Java, MySQL/MongoDB, Others",Yes,2,Unemployed,1,"LinkedIn, Campus Placements"
+03/02/2025 20:52:17,BHUKYA SANDEEP,Male,22,B.Tech,3,AI,C/Python/Java,No,0,Unemployed,0,LinkedIn
+03/02/2025 20:52:18,Bandi Anand Babu,Male,20,B.Tech,3,Web Development,C/Python/Java,No,0,Unemployed,,LinkedIn
+03/02/2025 20:54:17,Bandi Anand Babu,Male,20,B.Tech,3,Web Development,C/Python/Java,No,0,Unemployed,,Campus Placements
+03/02/2025 21:02:26,Bhaskarla Suma Lohitha ,Female,20,B.Tech,3,"Data Science, Web Development, Machine Learning, AI","C/Python/Java, HTML/CSS/JavaScript, TensorFlow/Scikit-learn, MySQL/MongoDB, Git/GitHub",No,2,Unemployed,2,"LinkedIn, Indeed, Naukri, Campus Placements"
+03/02/2025 21:06:17,Rama hanumanth ,Male,22,B.Com,3,AI,Others,No,0,Unemployed,,LinkedIn
+03/02/2025 21:22:41,Lihan ,Male,24,M.Tech,2,"Data Science, AI","C/Python/Java, TensorFlow/Scikit-learn, MySQL/MongoDB",Yes,2,Unemployed,,"LinkedIn, Naukri"
+03/02/2025 21:23:49,Jyothsna Jakku,Female,22,B.Tech,4,Other,"C/Python/Java, HTML/CSS/JavaScript",Yes,1,Unemployed,,"Naukri, Campus Placements"
+03/02/2025 21:50:20,Banavathu vasu,Male,19,B.Tech,3,Web Development,C/Python/Java,Yes,1,Unemployed,2,"LinkedIn, Naukri, Campus Placements"
+03/02/2025 22:01:30,Bhukya Vijaya Sri ,Female,19,B.Tech,3,"Software Development, Web Development",Others,Yes,2,Unemployed,9052479689,"LinkedIn, Campus Placements"
+03/02/2025 22:03:26,C anvesh,Male,20,B.Tech,3,Other,C/Python/Java,No,1,Unemployed,36,Campus Placements
+03/02/2025 22:05:34,BEZAWADA YAMUNA ,Female,20,B.Tech,,Cybersecurity,C/Python/Java,No,2,Unemployed,3,LinkedIn
+03/02/2025 22:06:23,Sunny ,Male,20,B.Tech,4,Software Development,"C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",Yes,0,Unemployed,,
+04/02/2025 06:31:51,Ramya ,Female,19,B.Tech,3,"Software Development, Web Development, AI","C/Python/Java, HTML/CSS/JavaScript",Yes,2,Unemployed,,"LinkedIn, Campus Placements"
+04/02/2025 07:03:38,Vadithya Goparaju ,Male,22,Other,2,Other,Others,No,1,Unemployed,2,Other
+04/02/2025 07:20:00,CHALLA HEMASRI ,Female,20,B.Tech,3,Web Development,"C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",No,0,Unemployed,0,LinkedIn
+04/02/2025 08:07:41,Shakina,Female,18,B.Tech,3,Other,Others,No,3,Unemployed,3,Other
+04/02/2025 19:43:59,Laya,Female,18,B.Tech,3,"Software Development, Web Development","HTML/CSS/JavaScript, MySQL/MongoDB",Yes,2,Unemployed,,"LinkedIn, Campus Placements"
+04/02/2025 20:43:13,ganesh,Male,20,B.Tech,2,"Software Development, Data Science, Web Development, Machine Learning","C/Python/Java, HTML/CSS/JavaScript, Git/GitHub",Yes,2,Unemployed,0,"LinkedIn, Indeed"
+04/02/2025 20:45:03,laxman,Male,21,B.Tech,Completed,"Software Development, Data Science, Web Development","C/Python/Java, HTML/CSS/JavaScript, TensorFlow/Scikit-learn",Yes,2,Employed,2,"LinkedIn, Indeed"
+04/02/2025 21:02:45,p munnaf,Male,20,B.Tech,3,"Software Development, Data Science, Web Development, Machine Learning","C/Python/Java, HTML/CSS/JavaScript, TensorFlow/Scikit-learn, MySQL/MongoDB",No,2,Unemployed,0,"LinkedIn, Indeed"
+04/02/2025 21:03:25,Revathi,Female,20,B.Tech,3,"Software Development, Web Development, AI","C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",Yes,1,Unemployed,1,"LinkedIn, Campus Placements"
+04/02/2025 21:30:28,Viper,Male,19,B.Tech,1,AI,Others,No,more than 3,Unemployed,2,Other
+04/02/2025 21:46:38,Dharmateja,Male,24,Other,Completed,Software Development,"C/Python/Java, HTML/CSS/JavaScript",Yes,more than 3,Employed,3,"LinkedIn, Naukri"
+04/02/2025 21:48:18,Pullarao,Female,24,B.Sc,3,Cybersecurity,C/Python/Java,Yes,2,Employed,Yes 5 ,LinkedIn
+04/02/2025 21:48:57,Vamsi,Male,21,B.Tech,4,"Software Development, Data Science, Web Development, Machine Learning, Cybersecurity, AI",C/Python/Java,Yes,3,Employed,,LinkedIn
+04/02/2025 21:49:34,Aakash,Male,23,B.Tech,Completed,"Software Development, Web Development","C/Python/Java, HTML/CSS/JavaScript",Yes,1,Unemployed,2,"LinkedIn, Naukri"
+04/02/2025 22:30:20,Aafrin,Female,20,B.Tech,3,"Software Development, Web Development",C/Python/Java,Yes,2,Unemployed,,"LinkedIn, Campus Placements"
+05/02/2025 07:41:43,Vamsi,Male,20,B.Tech,3,Web Development,C/Python/Java,No,1,Unemployed,,LinkedIn
+05/02/2025 12:56:30,SHAIK SABEEHA ,Female,18,B.Tech,3,"Software Development, Web Development, Machine Learning","C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB",Yes,2,Unemployed,3,"LinkedIn, Indeed, Campus Placements, Other"
+05/02/2025 12:57:58,Afreen ,Female,20 years,B.Tech,3,"Software Development, Web Development, AI","C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB, Git/GitHub",Yes,1,Employed,,
+05/02/2025 23:22:45,K.Dilip Kumar ,Male,19,B.Tech,3,"Software Development, Web Development","C/Python/Java, HTML/CSS/JavaScript",No,0,Unemployed,,LinkedIn
+12/02/2025 10:01:55,Alekhya,Female,22,B.Tech,Completed,"Software Development, Web Development, Machine Learning","C/Python/Java, HTML/CSS/JavaScript, TensorFlow/Scikit-learn, MySQL/MongoDB, Git/GitHub",Yes,3,Employed,10,"LinkedIn, Naukri"
+12/02/2025 10:02:41,Shiva,Male,23,B.Tech,Completed,"Cybersecurity, AI","C/Python/Java, MySQL/MongoDB, Flutter/ReactNative, Others",Yes,more than 3,Employed,7,"Naukri, Campus Placements"
+12/02/2025 10:03:31,Ganesh,Male,21,B.Tech,4,"Software Development, Web Development, AI","C/Python/Java, HTML/CSS/JavaScript, MySQL/MongoDB, Git/GitHub, Others",Yes,2,Employed,15,"LinkedIn, Naukri, Campus Placements, Other"
+12/02/2025 10:05:35,Rafiya,Female,22,B.Com,Completed,"Machine Learning, AI, Other","TensorFlow/Scikit-learn, MySQL/MongoDB, Flutter/ReactNative, Git/GitHub, Others",Yes,more than 3,Employed,6,"LinkedIn, Campus Placements, Other"
