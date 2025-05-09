@@ -1,48 +1,62 @@
-//1. Rollup - Total Project Count?
+//slice
+// What is the internship experience based on different durations?- duration greater than 3 months.
 
 SELECT
-  FILTER(
-    {[Measures].[Fact Project Details Count]},
-    [Measures].[Fact Project Details Count] > 5
-  ) ON COLUMNS
-FROM [snowflake]
+    NON EMPTY FILTER(
+        [Dim Internship].[Duration].MEMBERS,
+        [Dim Internship].[Duration].CurrentMember.Name >"2"
+    ) ON COLUMNS,
+    NON EMPTY [Dim Internship].[Internship Experience].MEMBERS ON ROWS
+FROM 
+    [star]
 
-
-//2.Drill Down - View All Degree Programs
-
+//dicing:
+//What are the desired career paths of students, filtered by gender - Gender ID is not equal to 2.
 SELECT
-  EXCEPT(
-    [Dim Student 1].[Degree Program].Members,
-    {[Dim Student 1].[Degree Program].[Unknown]}
-  ) ON COLUMNS
-FROM [snowflake]
+    NONEMPTY(
+        [Dim Career].[Desired Career Path].Members
+    ) ON COLUMNS,
+    FILTER(
+        [Dim Student].[Gender ID].Members,
+        [Dim Student].[Gender ID].CurrentMember.Name <> "2"
+        AND [Dim Student].[Gender ID].CurrentMember.Name <> "Unknown"
+        AND [Dim Student].[Gender ID].CurrentMember.Name <> ""
+    ) ON ROWS
+FROM 
+    [star]
 
-//3.Slice - Display Degree Programs and Project Completion Status
+
+//roll up:
+//What is the overall gender distribution of students?
+SELECT 
+    [Dim Student].[Gender ID].Members ON COLUMNS
+FROM 
+    [star]
+
+// Drill Down
+// list of all students under each Gender ID ?
 SELECT
-  NON EMPTY [Dim Student 1].[Degree Program].Members ON COLUMNS,
-  NON EMPTY [Fact Project Details].[Project Completion Status].Members ON ROWS
-FROM [snowflake]
+    [Dim Student].[Gender ID].[All] ON COLUMNS,
+    [Dim Student].[Student ID].Members ON ROWS
+FROM 
+    [star]
 
-
-//4. Dice - View Project Completion Status
+// pivot
+//How do career paths vary by gender?
 SELECT
-  [Fact Project Details].[Project Completion Status].Members ON COLUMNS
-FROM [snowflake]
-
-//5. Pivot - Display Degree Programs with project completion status 'Completed' 
-//and Degree Program names less than 'M' alphabetically.
-SELECT
-  FILTER(
-    [Dim Student 1].[Degree Program].Members,
-    [Dim Student 1].[Degree Program].CurrentMember.Name < "M"
-    AND [Dim Student 1].[Degree Program].CurrentMember.Name <> "Unknown"
-  ) ON COLUMNS,
-  FILTER(
-    [Fact Project Details].[Project Completion Status].Members,
-    [Fact Project Details].[Project Completion Status].CurrentMember.Name = "Completed"
-  ) ON ROWS
-FROM [snowflake]
+    NONEMPTY(
+        [Dim Student].[Gender ID].Members
+    ) ON COLUMNS,
+    NONEMPTY(
+        [Dim Career].[Career ID].Members
+    ) ON ROWS
+FROM 
+    [star]
 
 
 
 
+
+
+
+ 
