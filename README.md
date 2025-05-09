@@ -17,7 +17,7 @@ The aim of this project is to help educational institutions:
 - **Visualization:** Orange Tool, Charts, Confusion Matrices
 
 ## 📂 Project Structure
-'''
+```text
 ├── Part-A: Student Employment Readiness
 │ ├── Data Collection (Google Forms)
 │ ├── Preprocessing (Missing values, Normalization)
@@ -35,7 +35,7 @@ The aim of this project is to help educational institutions:
 ├── Performance Comparisons
 ├── Preprocessing Impact
 └── Key Observations & Conclusions
-'''
+```
 ## 🔍 Key Findings
 
 - **Random Forest** provided the highest accuracy for student classification.
