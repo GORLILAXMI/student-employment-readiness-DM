@@ -1,0 +1,44 @@
+//1.Roll Up- Display the summarized project completion by degree program where the status is "Completed" 
+//and the degree program name starts with 'B'.
+SELECT
+  FILTER(
+    [Dim Student 2].[Degree Program].Members,
+    [Dim Student 2].[Degree Program].CurrentMember.Name <> "Unknown"
+    AND LEFT([Dim Student 2].[Degree Program].CurrentMember.Name, 1) = "B"
+  ) ON COLUMNS,
+  FILTER(
+    [Fact Project Details 1].[Project Completion Status].Members,
+    [Fact Project Details 1].[Project Completion Status].CurrentMember.Name = "Completed"
+  ) ON ROWS
+FROM [factconstallation]
+
+
+//2. Drilldown - student names and their employment status :
+SELECT
+  FILTER([Fact Employment 1].[Employment Status].Members, [Fact Employment 1].[Employment Status].CurrentMember.Name <> "Unknown") ON COLUMNS,
+  FILTER([Dim Student 2].[Name].Members, [Dim Student 2].[Name].CurrentMember.Name <> "Unknown") ON ROWS
+FROM [factconstallation]
+
+//3.Slice - Display all male students whose name is not 'Unknown' and age is greater than 18.
+SELECT
+  FILTER(
+    [Dim Student 2].[Name].Members,
+    [Dim Student 2].[Name].CurrentMember.Name <> "Unknown"
+    AND [Dim Student 2].[Age].CurrentMember.Name > 18
+  ) ON COLUMNS
+FROM [factconstallation]
+WHERE [Dim Student 2].[Gender].[Male]
+
+
+//4.Dice - View Project Completion Status
+SELECT
+  [Fact Project Details 1].[Project Completion Status].Members ON COLUMNS
+FROM [factconstallation]
+
+
+//5.Pivot -gender on columns and age on rows to view the number of students in each category
+SELECT
+  FILTER([Dim Student 2].[Gender].Members, [Dim Student 2].[Gender].CurrentMember.Name <> "Unknown") ON COLUMNS,
+  FILTER([Dim Student 2].[Age].Members, [Dim Student 2].[Age].CurrentMember.Name <> "Unknown") ON ROWS
+FROM [factconstallation]
+
