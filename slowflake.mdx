@@ -1,0 +1,48 @@
+//1. Rollup - Total Project Count?
+
+SELECT
+  FILTER(
+    {[Measures].[Fact Project Details Count]},
+    [Measures].[Fact Project Details Count] > 5
+  ) ON COLUMNS
+FROM [snowflake]
+
+
+//2.Drill Down - View All Degree Programs
+
+SELECT
+  EXCEPT(
+    [Dim Student 1].[Degree Program].Members,
+    {[Dim Student 1].[Degree Program].[Unknown]}
+  ) ON COLUMNS
+FROM [snowflake]
+
+//3.Slice - Display Degree Programs and Project Completion Status
+SELECT
+  NON EMPTY [Dim Student 1].[Degree Program].Members ON COLUMNS,
+  NON EMPTY [Fact Project Details].[Project Completion Status].Members ON ROWS
+FROM [snowflake]
+
+
+//4. Dice - View Project Completion Status
+SELECT
+  [Fact Project Details].[Project Completion Status].Members ON COLUMNS
+FROM [snowflake]
+
+//5. Pivot - Display Degree Programs with project completion status 'Completed' 
+//and Degree Program names less than 'M' alphabetically.
+SELECT
+  FILTER(
+    [Dim Student 1].[Degree Program].Members,
+    [Dim Student 1].[Degree Program].CurrentMember.Name < "M"
+    AND [Dim Student 1].[Degree Program].CurrentMember.Name <> "Unknown"
+  ) ON COLUMNS,
+  FILTER(
+    [Fact Project Details].[Project Completion Status].Members,
+    [Fact Project Details].[Project Completion Status].CurrentMember.Name = "Completed"
+  ) ON ROWS
+FROM [snowflake]
+
+
+
+
